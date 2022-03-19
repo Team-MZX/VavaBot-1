@@ -7,3 +7,4 @@ async function parseGistUrls(url) {
     return false;
   }
 }
+module.exports = { parseGistUrls: parseGistUrls};
