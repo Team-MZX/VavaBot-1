@@ -18,4 +18,4 @@ Asena.addCommand({pattern: 'gist', fromMe: true, desc: 'testing', dontAddCommand
       await message.sendMessage(msg)
     }
    }
-}
+}));
