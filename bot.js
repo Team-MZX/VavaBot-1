@@ -1,12 +1,6 @@
-/* Copyright (C) 2020 Yusuf Usta.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
-*/
-
 const fs = require("fs");
 const path = require("path");
-const events = require("./events");
+const events = require("./Utilis/events");
 const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
